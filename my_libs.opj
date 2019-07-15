@@ -1,0 +1,118 @@
+(ExpressProject "my_libs"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File ".\my_libs.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File ".\my_libs.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x"))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    (ATMEGA2560
+      (FullPartName "ATMEGA2560.Normal")
+      (LibraryName "C:\USERS\USER\DESKTOP\WORK\MY_LIBS\MY_LIBS.OLB")
+      (DeviceIndex "0"))
+    (atmega32
+      (FullPartName "atmega32.Normal")
+      (LibraryName "C:\USERS\USER\DESKTOP\WORK\MY_LIBS\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (my-ic2line
+      (FullPartName "my-ic2line.Normal")
+      (LibraryName "C:\USERS\USER\DESKTOP\WORK\MY_LIBS\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (mylibs
+      (FullPartName "mylibs.Normal")
+      (LibraryName "C:\USERS\USER\DESKTOP\WORK\MY_LIBS\LIBRARY1.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library" ".\my_libs.olb"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -30 0 291 0 427"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 320 1960 1 466")
+        (Scroll "-311 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "C:\USERS\USER\DESKTOP\WORK\MY_LIBS\MY_LIBS.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1"))
+    (Doc
+      (Type "COrPartDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 307 1871 5 663")
+        (PackageScroll "0 0")
+        (PackageZoom "1")
+        (PartPackage "Part")
+        (Scroll "3127 712")
+        (Zoom "494"))
+      (Path "C:\Users\user\Desktop\work\my_libs\MY_LIBS.OLB")
+      (Package "myfnd"))
+    (Doc
+      (Type "COrPartDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 344 1691 4 469")
+        (PackageScroll "0 0")
+        (PackageZoom "1")
+        (PartPackage "Part")
+        (Scroll "2584 809")
+        (Zoom "494"))
+      (Path "C:\Users\user\Desktop\work\my_libs\MY_LIBS.OLB")
+      (Package "my-ic2line"))
+    (Doc
+      (Type "COrPartDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 320 1667 5 467")
+        (PackageScroll "0 391")
+        (PackageZoom "1")
+        (PartPackage "Package")
+        (Scroll "1270 376")
+        (Zoom "296"))
+      (Path "C:\Users\user\Desktop\work\my_libs\MY_LIBS.OLB")
+      (Package "ATMEGA328"))
+    (Doc
+      (Type "COrPartDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 175 1526 175 644")
+        (PackageScroll "0 0")
+        (PackageZoom "1")
+        (PartPackage "Part")
+        (Scroll "207 58")
+        (Zoom "132"))
+      (Path "C:\Users\user\Desktop\work\my_libs\MY_LIBS.OLB")
+      (Package "atmega32"))
+    (Doc
+      (Type "COrPartDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 200 1551 200 669")
+        (PackageScroll "0 0")
+        (PackageZoom "1")
+        (PartPackage "Part")
+        (Scroll "507 54")
+        (Zoom "176"))
+      (Path "C:\Users\user\Desktop\work\my_libs\MY_LIBS.OLB")
+      (Package "ATMEGA2560"))
+    (Doc
+      (Type "COrPartDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 50 1401 50 519")
+        (PackageScroll "967 1369")
+        (PackageZoom "1")
+        (PartPackage "Package")
+        (Scroll "244 72")
+        (Zoom "138"))
+      (Path "C:\Users\user\Desktop\work\my_libs\MY_LIBS.OLB")
+      (Package "xc7v585tffg1157"))))
